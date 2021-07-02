@@ -1,0 +1,22 @@
+import java.util.*;
+class primecount
+{
+public static void main(String args[])
+{
+int m,n;
+int count=0;
+Scanner sc=new Scanner(System.in);
+System.out.println("begining range");
+m=sc.nextInt();
+System.out.println("Ending range");
+n=sc.nextInt();
+for(int i=m;i<=n;i++)
+{
+if(i%2==0)
+{
+count+=1;
+}
+}
+System.out.println("primecount:-"+count);
+}
+}
