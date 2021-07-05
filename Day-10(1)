@@ -1,0 +1,23 @@
+class secnumber 
+{
+   public static void main(String args[])
+{
+      int t,s;
+      int array[] = {1, 21, 287, 45, 189, 79};
+      s= array.length;
+      for(int i=0;i<s;i++)
+    {
+         for(int j=i+1;j<s;j++)
+     {
+
+            if(array[i]>array[j])
+        {
+               t=array[i];
+               array[i]=array[j];
+               array[j]=t;
+            }
+         }
+      }
+      System.out.println("second largest number : "+array[s-2]);
+   }
+}
