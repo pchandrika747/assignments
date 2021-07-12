@@ -1,0 +1,14 @@
+class strreversedot
+{
+public static void main(String[] args)
+{
+String str[]="sun rises in the east".split(" ");
+String sub="";
+for (int i=str.length-1;i>=0;i--)
+{
+sub+=str[i]+".";
+}
+System.out.println("Reversed String:");
+System.out.println(sub.substring(0,sub.length()-1));
+}
+}
