@@ -1,0 +1,24 @@
+import java.util.*;
+class Scanupdate
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+ArrayList<Integer> N= new ArrayList<Integer>();
+int size=sc.nextInt();
+System.out.println("Arraylist values : ");
+for(int i=0;i<size;i++)
+{
+int p=sc.nextInt();
+N.add(p);
+}
+System.out.println("list values="+N);
+System.out.println("array value");
+int num=sc.nextInt();
+N.indexOf(num);
+System.out.println("Update value");
+int rep=sc.nextInt();
+N.set(N.indexOf(num),rep);
+System.out.println("list values="+N);
+}
+}
