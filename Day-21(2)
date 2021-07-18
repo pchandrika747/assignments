@@ -1,0 +1,20 @@
+import java.util.*;
+class vectors
+{
+public static void main(String args[])
+{
+Vector v=new Vector();
+v.add(101);
+v.add("Gita");
+v.add(6.58);
+v.add("Rama");
+v.add(8.98);
+System.out.println(v);
+v.remove(1);
+System.out.println(v);
+v.set(1,9.17);
+System.out.println(v);
+v.contains("Gita");
+System.out.println(v.contains("Gita"));
+}
+}
